@@ -10,7 +10,6 @@ import './styles/index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
     <Landing />
     <Background />
     <Skills />
