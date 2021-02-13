@@ -1,9 +1,13 @@
 .landing {
-    margin: 100px 150px;
+    margin: 0px 150px 0px 150px;
     padding-top: 200px;
-    height: 60vh;
+    height: 82vh;
     width: 30vw;
 }
 .landing > p {
+    padding-top: 100px;
     font-size: 34px;
+}
+#chevron-down {
+    text-align: center;
 }

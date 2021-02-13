@@ -4,7 +4,7 @@ import '../styles/skills.css';
 const Skills = () => {
     return (
         <>
-        <div className="skills">
+        <div className="skills-block" id="skills">
             <div className="section-title">
                 SKILLS
             </div>
@@ -17,6 +17,7 @@ const Skills = () => {
                             <li className="skills-point">C#</li>
                             <li className="skills-point">Ruby</li>
                             <li className="skills-point">PHP</li>
+                            <li className="skills-point">GraphQL</li>
                         </ul>
                     </div>
                 </div>

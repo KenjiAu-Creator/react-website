@@ -10,7 +10,7 @@ import shopMobile from '../images/ShopMobile.PNG';
 const Feature = () => {
     return(
         <>
-        <div className="feat">
+        <div className="feat" id="feature">
             <div className="section-title">
                 FEATURED PROJECTS
             </div>
@@ -20,7 +20,7 @@ const Feature = () => {
                         <img id="yummyLanding" src={yummyLanding}/>
                         <img id="yummyMobile" src={yummyMobile}/>
                     </div>
-                    <p>
+                    <p className="feat-desc">
                         Yummy is a meal planning application built on .NET Core, React and Tailwind.css. Yummy allows users to create profiles and save recipes along with meal plans.
                     </p>
                     <div className="proj-buttons">
@@ -32,8 +32,8 @@ const Feature = () => {
                         <img id="shopLanding" src={shopLanding}/>
                         <img id="shopMobile" src={shopMobile}/>
                     </div>
-                    <p>
-                    An E-commerce site built around a charity theme. The application features an online store with products obtained through an external API. The application tracks products the user wishes to purchase with through a Redux state managed cart system.
+                    <p className="feat-desc">
+                        An E-commerce site built around a charity theme. The application features an online store with products obtained through an external API. The application tracks products the user wishes to purchase with through a Redux state managed cart system.
                     </p>
                     <div className="proj-buttons">
                         <a href="https://kenjiau-creator.github.io/TECHCareers-React-Redux-Milestone/" target="_blank" className="button">Demo</a>

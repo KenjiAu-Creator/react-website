@@ -2,15 +2,18 @@ import React from 'react'
 import '../styles/header.css'
 
 const Header = () => {
+    const background = document.getElementById('bg')
+    const executeScroll = () => {
+        background.scrollIntoView();
+    }
     return (
         <>
         <div id="header">
             <ul>
-                <li className="header-choice">Background</li>
-                <li className="header-choice">Experience</li>
-                <li className="header-choice">Projects</li>
+                <li className="header-choice"><a href="#background">Background</a></li>
+                <li className="header-choice"><a href="#experience">Experience</a></li>
+                <li className="header-choice"><a href="#feature">Projects</a></li>
                 <li className="header-choice">Contact</li>
-                <li className="header-choice">Resume</li>
             </ul>
         </div>
         </>

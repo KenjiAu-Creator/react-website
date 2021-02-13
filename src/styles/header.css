@@ -3,6 +3,12 @@
     display: inline;
     padding: 0 5px;
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
 #header {
     position: absolute;
     right: 50px;

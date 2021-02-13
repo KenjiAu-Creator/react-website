@@ -4,7 +4,7 @@ import '../styles/background.css';
 const Background = () => {
     return (
         <>
-        <div className="bg">
+        <div className="bg" id="background">
             <div className="section-title">
                 <p>
                     BACKGROUND
