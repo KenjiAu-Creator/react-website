@@ -5,18 +5,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown} from '@fortawesome/free-solid-svg-icons'
 
 const Background = () => {
-    const test1 = useRef(null);
+    const background = useRef(null);
 
     const handleClick = () => {
-        console.log(test1.current)
-        test1.current.scrollIntoView({behavior: 'smooth'});
+        background.current.scrollIntoView({behavior: 'smooth'});
     }
     return (
         <>
         <div id="chevron-down">
             <FontAwesomeIcon onClick={handleClick} icon={faChevronDown} size="4x"/>
         </div>
-        <div className="bg" id="background" ref={test1}>
+        <div className="bg" id="background" ref={background}>
             <div className="section-title">
                 <p>
                     BACKGROUND

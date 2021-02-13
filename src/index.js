@@ -6,16 +6,25 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Feature from './components/Feature';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './styles/index.css';
+import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Landing />
-    <Background />
-    <Skills />
-    <Experience />
-    <Feature />
+    <Router>
+      <Route path="/" exact>
+        <Header />
+        <Landing />
+        <Background />
+        <Skills />
+        <Experience />
+        <Feature />
+      </Route>
+      <Route path="/contact" exact>
+        <Contact />
+      </Route>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
