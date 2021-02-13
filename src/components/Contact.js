@@ -1,28 +1,21 @@
 import React from 'react';
+import 'font-awesome/css/font-awesome.min.css';
+import {FaLinkedin, FaEnvelope, FaGithub} from 'react-icons/fa'
+
 
 const Contact = () => {
     return (
         <>
         <div>
-            <h1>Send me a message!</h1>
-            <form method="post" encType="text/plain">
-                <ul id="errorList">
-                </ul>
-                <label htmlFor="name">
-                Name:
-                <input type="text" id="name" />
-                </label>
-                <label htmlFor="subject">
-                Subject:
-                <input type="text" id="subject" />
-                </label>
-                <label htmlFor="message">
-                Message:
-                <textarea id="message"></textarea>
-                </label>
-                <label htmlFor="submit" >Submit Button</label>
-                <input id="submit" type="submit" />
-            </form>
+            <h1>Contact</h1>
+            <p>
+                If you think we can create something or you have an opportunity please reach out! I am always looking for new opportunities. Please send me a message via email or LinkedIn. I will get back to you as fast as I can.
+            </p>
+            <div>
+                <div><FaLinkedin /></div>
+                <div><FaEnvelope /></div>
+                <div><FaGithub /></div>
+            </div>
         </div>
         </>
     )
