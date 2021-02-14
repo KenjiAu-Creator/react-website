@@ -10,7 +10,7 @@ const TriggerOutlook = () =>
 
     var subject = "Message to Kenji Au";
 
-    window.location.href = "mailto:?body="+body+"&subject="+subject;               
+    window.location.href = "mailto:kenji1@ualberta.ca?body="+body+"&subject="+subject;               
 
 }   
 const Contact = () => {
