@@ -12,19 +12,13 @@ import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Route path="/" exact>
         <Header />
         <Landing />
         <Background />
         <Skills />
         <Experience />
         <Feature />
-      </Route>
-      <Route path="/contact" exact>
         <Contact />
-      </Route>
-    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
