@@ -22,7 +22,7 @@ const Contact = () => {
                 If you think we can create something or you have an opportunity please reach out! I am always looking for new opportunities. Please send me a message via email or LinkedIn. I will get back to you as fast as I can.
             </p>
             <div className="icon-box">
-                <div className="icon"><a className="icon-link" href="linkedIn.com/in/kenjiau-0123/" target="_blank"><FaLinkedin size="3em" /></a></div>
+                <div className="icon"><a className="icon-link" href="https://linkedIn.com/in/kenjiau-0123/" target="_blank"><FaLinkedin size="3em" /></a></div>
                 <div className="icon" onClick={TriggerOutlook}><FaEnvelope size="3em" /></div>
                 <div className="icon"><a className="icon-link" href="https://github.com/KenjiAu-Creator" target="_blank"><FaGithub size="3em" /></a></div>
             </div>
