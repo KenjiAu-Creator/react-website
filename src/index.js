@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Feature from './components/Feature';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Other from './components/Other';
 import './styles/index.css';
 import Contact from './components/Contact';
 
@@ -18,6 +18,7 @@ ReactDOM.render(
         <Skills />
         <Experience />
         <Feature />
+        <Other />
         <Contact />
   </React.StrictMode>,
   document.getElementById('root')

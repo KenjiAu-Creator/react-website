@@ -12,3 +12,8 @@
     display: block;
     width: 50vw;
 }
+@media screen and (min-width: 100px) {
+    .background-content {
+        width: 30%;
+    }
+}

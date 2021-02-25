@@ -52,3 +52,9 @@
   .feat-desc {
       width: 50vw;
   }
+
+  @media screen and (min-width: 1000px) {
+      .feat-desc {
+          width: 40%;
+      }
+  }
