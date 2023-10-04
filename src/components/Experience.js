@@ -11,11 +11,20 @@ const Experience = () => {
             <div className="content">
                 <div className="exp-block">
                     <div className="exp-title">
-                        <span className="company">unTribe</span>
+                        <span className="company">Method1 Enterprise Software</span>
                         <span>Software Developer</span>
                     </div>
                     <div className="exp-time">
-                        <span>Dec. 2020 - Present</span>
+                        <span>Mar. 2021 - Present</span>
+                    </div>
+                </div>
+                <div className="exp-block">
+                    <div className="exp-title">
+                        <span className="company">unTribe</span>
+                        <span>Software Developer Intern</span>
+                    </div>
+                    <div className="exp-time">
+                        <span>Dec. 2020 - Mar. 2021</span>
                     </div>
                 </div>
                 <div className="exp-block">

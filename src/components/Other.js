@@ -52,7 +52,7 @@ const Other = () => {
                         </div>
                         <div className="proj-buttons">
                             <a href="https://github.com/KenjiAu-Creator/TheOdinProject-Private-Event" target="_black" className="button">Code</a>
-                            <a href="https://secure-falls-65193.herokuapp.com/users" target="_black" className="button">Demo</a>
+                            {/* <a href="https://secure-falls-65193.herokuapp.com/users" target="_black" className="button">Demo</a> */}
                         </div>
                     </div>
                     <div className="proj-desc">
