@@ -23,7 +23,7 @@ const Background = () => {
             </div>
             <div className="background-content">
                 <p>
-                    I'm currently a Software Developer at Method1 Enterprise Software.
+                    I'm currently a Software Developer at Vantix Systems.
                 </p>
                 <p>
                     As a full stack developer, I find joy in solving problems that come up from bringing projects from ideation to production. My goal is to always build applications that are efficient under the hood while providing engaging user experiences.
