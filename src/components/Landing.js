@@ -9,7 +9,7 @@ const Landing = () => {
                 Hey there!
             </p>
             <p>
-                I'm Kenji, a Full Stack Software Engineer. I enjoy creating creating new applications and working with data transformations.
+                I'm Kenji, a Full Stack Software Developer. I enjoy creating creating new applications and working with data transformations.
             </p>
         </div>
         </>
